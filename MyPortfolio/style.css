@@ -120,3 +120,6 @@ body {
   height: 720px;
 }
 
+#text_head {
+  font-size: medium;
+}
