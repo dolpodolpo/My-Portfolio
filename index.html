@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- My Javascript -->
+    <script src="main.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <!-- This is for the icon in the tab bar in browser -->
+    <link rel="shortcut icon" type="image/png" href="/images/brain-solid.svg class" />
+
+    <title>Adolf Montaner - Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation for Computers -->
+    <div id="home" class="container navigation pt-3 d-none d-md-block">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <i class="fas fa-brain fa-2x text-info pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">My Portfolio</h5>
+        </div>
+        <div class="col-6 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center"
+          >
+            <div class="col-3">
+              <a href="#about" class="text-white navigation-link">About</a>
+            </div>
+            <div class="col-3">
+              <a href="#projects" class="text-white navigation-link"
+                >Projects</a
+              >
+            </div>
+            <div class="col-3">
+              <a href="#social-media" class="text-white navigation-link"
+                >Social Media</a
+              >
+            </div>
+            <div class="col-3">
+              <a
+                href="#"
+                target="_blank"
+                class="btn btn-outline-info"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation for Mobiles -->
+    <div id="home2" class="container navigation pt-3 d-block d-sm-block d-md-none">
+      <div class="d-block text-center">
+        <i class="fas fa-brain fa-3x text-info pb-3" aria-hidden="true"></i>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center pt-3">
+        <div class="col-4 text-right">
+          <a href="#about" class="text-white navigation-link">About</a>
+        </div>
+        <div class="col-4 text-center">
+          <a href="#projects" class="text-white navigation-link">Projects</a>
+        </div>
+        <div class="col-4 text-left">
+          <a href="#social-media" class="text-white navigation-link"
+            >Social Media</a
+          >
+        </div>
+      </div>
+      <div class="d-block text-center pt-3">
+        <a
+          href="#"
+          target="_blank"
+          class="btn btn-outline-info"
+          >Resume</a
+        >
+      </div>
+    </div>
+
+    <!-- Main Container for Computers-->
+    <div class="main-container container d-none d-md-block">
+      <div class="row main_row">
+        <div class="col-6">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-info m-heading">Adolf Montaner</h1>
+          <h2 class="text-white">Aspiring Web Developer / UX UI Designer</h2>
+        </div>
+        <div class="col-6">
+          <img
+            src="/images/pic.jpg"
+            class="img-fluid rounded-circle"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container for Mobiles -->
+    <div
+      class="main-container-mobile container d-flex justify-content-center align-items-center d-none d-sm-block d-md-none"
+    >
+      <div class="content">
+        <h2 class="text-white">Hello, I'm</h2>
+        <h1 class="text-info m-heading">Adolf Montaner</h1>
+        <h2 class="text-white">Aspiring Web Developer / UX UI Designer</h2>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mt-5">
+          <img src="./images/about_img.svg" class="img-fluid" />
+        </div>
+        <div class="col-md-6 col-sm-12 pl-md-5 pt-5 pb-md-5 text-dark">
+          <h3 class="text-white">About Me</h3>
+          <h1 class="m-heading">Something Interesting About Me</h1>
+          <p>I am currently working as an <b style="color:#1f2235;">Application Developer</b>, prior to that I worked as a Quote to Cash Professional for Tech Support Services for a year. Highly organized, self-motivated, and proficient with computers. With excellent organizational and analytical skills. <b style="color:#1f2235;">Able to achieve Key Performance Indicator (KPI)</b>. Able to communicate well in English.</p>
+
+                <p>Gained <b style="color:#1f2235;">Super Learner 2020</b> - employees who consistently and continuously invest in their skills development and growth. They steadily learned at least 15 hours in a quarter, leading to achieving over 60 hours of learning in a year.</p>
+          <button class="btn btn-outline-dark">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-3 pt-5">
+      <h1 class="text-info mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/images/logo_design.svg"
+              class="card-img-top p-2"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Logo Design</h5>
+              <p class="card-text" style="min-height:12rem">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-lg btn-info justify-content-center" data-toggle="modal" data-target="#logoDesign">
+                    View
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="logoDesign" tabindex="-1" role="dialog" aria-labelledby="logoDesign" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="logoDesign">Logo Design Samples</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="/images/MaryChile's Logo.png" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Takuyaki.png" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/MOMFOODS.png" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/ASSORTED DP.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/CHANNEL ICON.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/images/graphic_design.svg"
+              class="card-img-top p-2"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text" style="min-height:12rem">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-lg btn-info justify-content-center" data-toggle="modal" data-target="#graphicDesign">
+                    View
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="graphicDesign" tabindex="-1" role="dialog" aria-labelledby="graphicDesign" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="graphicDesign">Logo Design Samples</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="/images/Asus1.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Asus2.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Asus4.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Asus3.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Channel Art Template Bano Sensei (Photoshop).png" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/BanoSenseiEvolution.png" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Mixtape Radio_Montaner.svg" class="mx-auto d-block m-5 modal_set" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/images/video_editing.svg"
+              class="card-img-top p-2"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Video Editing</h5>
+              <p class="card-text" style="min-height:12rem">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-lg btn-info justify-content-center" data-toggle="modal" data-target="#videoEditing">
+                    View
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="videoEditing" tabindex="-1" role="dialog" aria-labelledby="videoEditing" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="videoEditing">Video Editing Samples</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe class="mx-auto d-block m-5 modal_set2" src="https://www.youtube.com/embed/V8ZPJdh1fMI?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <iframe class="mx-auto d-block m-5 modal_set2" src="https://www.youtube.com/embed/HntL5yJVy1E?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/images/t-shirt_design.svg"
+              class="card-img-top p-2"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">T-Shirt Design</h5>
+              <p class="card-text" style="min-height:12rem">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-lg btn-info justify-content-center" data-toggle="modal" data-target="#tshirtDesign">
+                    View
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="tshirtDesign" tabindex="-1" role="dialog" aria-labelledby="tshirtDesign" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="tshirtDesign">T-Shirt Design Sample</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="/images/T-shirt.jpg" class="mx-auto d-block m-5 modal_set" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/images/wireframe.svg"
+              class="card-img-top p-2"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Wireframe</h5>
+              <p class="card-text" style="min-height:12rem">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-lg btn-info justify-content-center" data-toggle="modal" data-target="#wireFrame">
+                    View
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="wireFrame" tabindex="-1" role="dialog" aria-labelledby="wireFrame" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="wireFrame">Wireframe Samples</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="/images/Homepage  1366px.svg" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images//Contact Us.svg" class="mx-auto d-block m-5 modal_set" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="/images/web_mockups.svg"
+              class="card-img-top p-2"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Web Mockups</h5>
+              <p class="card-text" style="min-height:12rem">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="row align-self-end">
+                <div class="col-6">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn-lg btn-info justify-content-center" data-toggle="modal" data-target="#webMockUps">
+                    View
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="webMockUps" tabindex="-1" role="dialog" aria-labelledby="webMockUps" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="webMockUps">Web Mockups Samples</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="/images/Desktop2.png" class="mx-auto d-block m-5 modal_set" alt="">
+                          <img src="/images/Desktop1.png" class="mx-auto d-block m-5 modal_set" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo Design Section -->
+    <div id="projects" class="container mt-3 pt-5">
+      
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-info">Social Media</h4>
+        <h1 class="m-heading">Check my social media profiles</h1>
+        <div class="row pt-5 d-flex justify-content-center">
+          <div class="col-12 col-md-3 mt-md-3 media_link btn">
+            <a href="https://www.linkedin.com/in/adolf-montaner-998843158/" target="_blank" class="text-decoration-none">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-3 mt-3 media_link btn">
+            <a href="https://www.youtube.com/channel/UC1mETGuHB_zKWmOLow8hlow" target="_blank" class="text-decoration-none">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-white">Youtube</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-youtube fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-3 mt-3 media_link btn">
+            <a href="https://web.facebook.com/renzaadolf/" target="_blank" class="text-decoration-none">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-white">Facebook</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fab fa-facebook-square fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-md-3 mt-3 media_link2 btn">
+            <div onclick="openEmail();">
+              <div class="row">
+                <div class="col-6 d-flex justify-content-start">
+                  <h3 class="m-0 pt-2 text-dark">Email</h3>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                  <i class="fas fa-envelope fa-2x text-secondary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="mailId" class=" container bg-info">
+          <h4 id="mailIdText" class="m-0"></h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5 d-none d-md-block">
+        <h5>
+          Copyright &copy; 2021 |
+          <a class="text-info text-decoration-none" href="#home">Adolf Montaner</a
+          >
+        </h5>
+      </div>
+
+      <div class="container navigation pt-3 d-block d-sm-block d-md-none text-muted text-center">
+        <h5>
+          Copyright &copy; 2021 |
+          <a class="text-info text-decoration-none" href="#home2">Adolf Montaner</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
