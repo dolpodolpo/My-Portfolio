@@ -90,13 +90,14 @@ body {
   padding: 1rem;
   max-width: 15rem;
   margin-left: 1rem;
-  border: 2px solid #17a2b8;
-  background-color: #17a2b8;
+  border: 2px solid #ffc107;
+  background-color: #ffc107;
   border-radius: 0.5rem;
 }
 
 .media_link2:hover{
-  background: #ffffff;
+  border: 2px solid #17a2b8;
+  background: #17a2b8;
   transition: 0.5s ease;
 }
 
@@ -122,4 +123,40 @@ body {
 
 #text_head {
   font-size: medium;
+}
+
+.learnmore-container {
+  height: 60vh;
+}
+
+/* Mobile Optimization */
+.learnmore-container-mobile {
+  min-height: 60vh;
+}
+
+/* Mobile Optimization */
+.learnmore-container-mobile h1{
+  font-size: 1.8rem;
+}
+
+.learnmore_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+/* Changing Name Font sixe */
+.learnmore_row h1 {
+  font-size: 1.8rem;
+}
+
+.awards-link {
+  border: 2px solid transparent;
+}
+
+.awards-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ffc107;
+  transition: 0.5s ease;
 }
