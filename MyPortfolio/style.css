@@ -52,10 +52,10 @@ body {
 }
 
 /* Making the main image the size of the screen */
-/* .main_row img {
+.main_row img {
   width: auto;
   height: 35rem;
-} */
+}
 
 /* About Section */
 .about {
